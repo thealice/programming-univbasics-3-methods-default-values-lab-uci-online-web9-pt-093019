@@ -1,9 +1,8 @@
-def order(veg1, veg2, protein = "meat")
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
-end
-def meal_choice
+def meal_choice(veg1, veg2, protein = "meat")
   p "What a nutritious meal!"
   puts order
 end
-
-order("broccoli", "macaroni", "tofu")
+def order
+  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+end
+meal_choice("broccoli", "macaroni", "tofu")
