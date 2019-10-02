@@ -6,4 +6,4 @@ def meal_choice
   puts order
 end
 
-meal_choice("broccoli", "macaroni", "tofu")
+order("broccoli", "macaroni", "tofu")
